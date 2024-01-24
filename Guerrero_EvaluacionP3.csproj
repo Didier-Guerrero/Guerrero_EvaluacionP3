@@ -48,4 +48,15 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="DG_Views\" />
+	  <Folder Include="DG_ViewModels\" />
+	</ItemGroup>
+
 </Project>
